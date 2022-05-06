@@ -11,6 +11,13 @@
 label{
    margin: 5px 30px;
 }
+.course {
+   color: white;
+   position: absolute;
+   top: -20px;
+   font-size: 50px;
+   left: 550px;
+}
  
  select {
     width: 180px;
@@ -50,6 +57,15 @@ label{
     font-size: medium;
     text-align: center;
  }
+ #back {
+   width: 350px;
+   color: rgb(243, 245, 241);
+   background-color: #002f87;
+   padding: 4px;
+   border: none;
+   cursor: pointer;
+   text-align: center;
+}
  
  #search-clear[type=submit]:hover {
     background-color: #09f;

@@ -2,21 +2,27 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <link type="text/css" href="/css/web_defaultapp.css" rel="stylesheet">
     <link media="print" type="text/css" href="/css/web_defaultprint.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <meta content="text/javascript" name="Default_Script_Language" http-equiv="Content-Script-Type">
     <title>Course Search Fall 2022 - Full Session</title>
-    </head>
     <body>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+        <header>
+            <div class="container"><img data-src="https://ung.edu//_uploads/images/2021/template/ung-sigh-white_gold.svg" alt="UNG Logo" class="main-logo lazyloaded" src="https://ung.edu//_uploads/images/2021/template/ung-sigh-white_gold.svg"></div>
+          </header> 
+            <nav class="navigation">
+               <ul>
+                  <li><a href="https://ungprod.sharepoint.com/sites/myUNG/students/Pages/default.aspx">Students</a></li>
+                  <li><a href="https://auth.ung.edu/signin/verify/duo/web">Banner</a></li>
+                  <li><a href="https://ungprod.sharepoint.com/sites/myung/departments/information-technology/Pages/default.aspx">Help</a></li>
+                </ul>
+            </nav>
+    <h2 class="Course">Course Search</h2>
     <div class="pagetitlediv">
     <table class="plaintable" summary="This table displays title and static header displays." width="100%">
     <tbody>
     <tr>
     <td class="pldefault">
-    <h2>Course Search</h2>
     </td>
     <td class="pldefault">
     </td>
@@ -26,13 +32,11 @@
     </td>
     </tr></tbody>
     </table>
-    <hr width="100%" size="4," noshade="false," color="#003366" text-align="center,">
     <a name="main_content"></a>
     </div>
     <div class="pagebodydiv">
     <script language="JavaScript">
 
-    <!--Hide from older browsers
     function windowOpen2(window_url) {
     helpWin = window.open(window_url,'','toolbar=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,directories=no,location=no,width=500,height=475');
         if (helpWin) helpWin.focus()
@@ -3712,9 +3716,7 @@
     <td colspan="9" class="dddefault"><br><hr></td>
     </tr>
     </tbody></table>
-    <input type="button" value="Go Back" onclick="javascript:history.back()">
-    &nbsp;
-    <input type="submit" name="cbutton" value="Begin New Search">
+    <a type="submit" id="Back" href="form.html">Begin New Search</a>
     </form>
     <hr width="100%" size="4," noshade="false," color="#003366" textalign="right,">
     
